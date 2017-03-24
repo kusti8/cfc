@@ -1,0 +1,10 @@
+[Unit]
+Description=Check for street light status
+
+[Service]
+Type=oneshot
+ExecStart=/home/pi/checker.py
+
+
+[Install]
+WantedBy=multi-user.target
