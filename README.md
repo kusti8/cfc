@@ -15,7 +15,7 @@ Download Instapush to each phone and login to receive notifications.
 ## Installation
 Installation is simple:
 1. Download [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
-and use it to write the ready made image, available [here](https://github.com/kusti8/cfc/releases/download/v1.0/cfc-non-instapush.zip) to a SD card.
+and use it to write the ready made image, available [here](https://github.com/kusti8/cfc/releases/download/v1.1/cfc-non-instapush-2.zip) to a SD card.
 
 2. Put the SD card and Ethernet cable into the Pi. Plug the power in.
 
