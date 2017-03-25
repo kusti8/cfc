@@ -1,6 +1,14 @@
 # Coding for Community - Streetlight - Hansen Ltd.
 ## by Aruj Jain and Gustav Hansen
 
+## Requirements per Pi
+ - A Pi3
+ - A Power supply (5V at around 1-2A)
+ - A LDR (light dependent resistor)
+ - A 10 uF capacitor
+ - Wires
+ - A 4 GB or larger SD card
+
 ## Installation
 Installation is simple:
 1. Download [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
