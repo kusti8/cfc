@@ -9,6 +9,9 @@
  - Wires
  - A 4 GB or larger SD card
 
+## Phone notification
+Download Instapush to each phone and login to receive notifications.
+
 ## Installation
 Installation is simple:
 1. Download [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/)
