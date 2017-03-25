@@ -36,3 +36,8 @@ DHCP start to 2 and DHCP end to 254. This will be the only Pi wired to the Inter
 
 The Pis will connect automatically and automatically make a mesh. Plug them
 in and no further configuration is needed.
+
+## The circuit
+Built the following circuit diagrammed.
+![Circuit](https://github.com/kusti8/cfc/blob/master/circuit.png)
+![Schematic](https://github.com/kusti8/cfc/blob/master/schematic.png)
