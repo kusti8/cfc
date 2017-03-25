@@ -22,13 +22,10 @@ raspberrypi.local with that.
 but it must be changed on each Pi.
 ![WiFi](https://github.com/kusti8/cfc/blob/master/wifi.png)
 
-7. To change the Instapush ID, connect the Pi to a monitor and keyboard, login
-with "pi" and "raspberry", run `nano checker.py` and edit the AppID and Secret.
-
-8. That's it! Press save and press reboot. Pull the Ethernet cable while it is
+7. That's it! Press save and press reboot. Pull the Ethernet cable while it is
 rebooting.
 
-9. **For the gateway (the one that connects to the Internet),
+8. **For the gateway (the one that connects to the Internet),
 there's one extra step. Go to wired and change the IP address to a free
 IP address for your own network. Ask IT for a free address. Then, change
 DHCP start to 2 and DHCP end to 254. This will be the only Pi wired to the Internet.**
@@ -41,3 +38,18 @@ in and no further configuration is needed.
 Built the following circuit diagrammed.
 ![Circuit](https://github.com/kusti8/cfc/blob/master/circuit.png)
 ![Schematic](https://github.com/kusti8/cfc/blob/master/schematic.png)
+
+## Custom Instapush
+Since the OS has been hardened against power surges, you need to temporarily
+reverse that. Boot the Pi up and run `sudo nano /boot/config.txt` and comment,
+with `#` out the last two lines:
+```
+#kernel=kernel7
+#initramfs initrd7.img
+```
+Press [CTRL]+[X] to exit, [ENTER], and then [Y]
+Then, run `sudo nano /boot/cmdline.txt`
+And remove `boot=overlay`
+Exit the same way. Run `sudo reboot` and then edit checker.py by running
+`nano checker.py` and changing the instapush credentials.
+Undo the changes done before and it should work!
