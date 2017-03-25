@@ -33,10 +33,14 @@ raspberrypi.local with that.
 but it must be changed on each Pi.
 ![WiFi](https://github.com/kusti8/cfc/blob/master/wifi.png)
 
-7. That's it! Press save and press reboot. Pull the Ethernet cable while it is
+7. Go to Mesh and change the identifier number to a unique number for each Pi.
+This is the number you will be given when a streetlight goes out, so it would
+be best to make a map corresponding number with streetlight.
+
+8. That's it! Press save and press reboot. Pull the Ethernet cable while it is
 rebooting.
 
-8. **For the gateway (the one that connects to the Internet),
+9. **For the gateway (the one that connects to the Internet),
 there's one extra step. Go to wired and change the IP address to a free
 IP address for your own network. Ask IT for a free address. Then, change
 DHCP start to 2 and DHCP end to 254. This will be the only Pi wired to the Internet.**
