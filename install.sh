@@ -5,3 +5,4 @@ if [[ $EUID -ne 0 ]]; then
 fi
 mv checker.py /home/pi/
 mv lightcheck.service /etc/systemd/system/lightcheck.service
+systemctl enable lightcheck
