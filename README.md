@@ -43,7 +43,7 @@ rebooting.
 9. **For the gateway (the one that connects to the Internet),
 there's one extra step. Go to wired and change the IP address to a free
 IP address for your own network. Ask IT for a free address. Then, change
-DHCP start to 2 and DHCP end to 253. This will be the only Pi wired to the Internet.**
+DHCP start to 2 and DHCP end to 253. This will be the only Pi wired to the Internet. Also change LAN to WAN!**
 ![Wired](https://github.com/kusti8/cfc/blob/master/wired.png)
 
 The Pis will connect automatically and automatically make a mesh. Plug them
